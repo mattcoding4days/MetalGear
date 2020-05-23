@@ -1,8 +1,7 @@
 """
 Solid snake was made from Big Boss's genetics
 """
-from big import Boss
-
+from MetalGear.bigboss import Boss
 
 class Snake(Boss):
     """

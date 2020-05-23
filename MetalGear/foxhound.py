@@ -1,17 +1,18 @@
 """
 Driver test code for big.py
 """
-from big import Boss
-from solid import Snake
+from MetalGear.bigboss import Boss
+from MetalGear.solidsnake import Snake
 
 
 def main():
     """
-    test bigboss
+    test big boss
+    test solid snake
     """
 
-    bigboss = Boss()
-    print(bigboss)
+    big_boss = Boss()
+    print(big_boss)
     solid_snake = Snake()
     print(solid_snake)
 
