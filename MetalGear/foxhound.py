@@ -1,8 +1,8 @@
 """
 Driver test code for big.py
 """
-from MetalGear.bigboss import Boss
-from MetalGear.solidsnake import Snake
+from bigboss import Boss
+from solidsnake import Snake
 
 
 def main():
