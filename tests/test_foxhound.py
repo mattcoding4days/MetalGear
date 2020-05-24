@@ -8,7 +8,7 @@ from MetalGear import foxhound
 class TestFoxHound(unittest.TestCase):
     @staticmethod
     def test_fox():
-        # call foxound
+        # call foxhound
         foxhound.main()
 
 
