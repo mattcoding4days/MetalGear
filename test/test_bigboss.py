@@ -6,11 +6,11 @@ Test bigboss.py
 import unittest
 from MetalGear.bigboss import Boss
 
-class TestFoxHound(unittest.TestCase):
-    @staticmethod
-    def test_bigboss():
+class TestBigBoss(unittest.TestCase):
+    def test_bigboss(self):
         big_boss = Boss()
-        print(f'{__name__} => \n{big_boss}')
+        assert big_boss.__str__(), 'Return should not be empty'
+        print(f'{self.test_bigboss.__name__} => {big_boss}')
 
 
 if __name__ == '__main__':

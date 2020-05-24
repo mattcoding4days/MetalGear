@@ -7,9 +7,8 @@ import unittest
 from MetalGear.foxhound import main
 
 class TestFoxHound(unittest.TestCase):
-    @staticmethod
-    def test_fox():
-        print(f'{__name__} => ')
+    def test_fox(self):
+        print(f'{self.test_fox.__name__} =>')
         main()
 
 

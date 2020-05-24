@@ -9,3 +9,4 @@ class Boss:
     """
     def __str__(self):
         return f'Hello from {self.__class__.__name__}'
+        # return ''
