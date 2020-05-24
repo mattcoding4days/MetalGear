@@ -9,7 +9,7 @@ to install itself as a package ( a recursive dependency )
 pip install wheel setuptools --user
 
 # install with this command
-pip install -r git+https://github.com/mattcoding4days/MetalGear#egg=MetalGear --user
+pip install git+https://github.com/mattcoding4days/MetalGear#egg=MetalGear --user
 
 # run the unittests from root directory ( where .git, tests/ directorys are )
 python -m tests.test_foxhound
