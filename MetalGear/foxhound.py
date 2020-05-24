@@ -1,8 +1,8 @@
 """
 Driver test code for big.py
 """
-from bigboss import Boss
-from solidsnake import Snake
+from MetalGear.bigboss import Boss
+from MetalGear.solidsnake import Snake
 
 
 def main():
@@ -15,8 +15,3 @@ def main():
     print(big_boss)
     solid_snake = Snake()
     print(solid_snake)
-
-
-
-if __name__ == '__main__':
-    main()
