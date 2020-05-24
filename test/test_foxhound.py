@@ -1,15 +1,16 @@
 """
-Test code for the MetalGear
-package
+Test code for the MetalGear package
+test foxhound.py
 """
+
 import unittest
-from MetalGear import foxhound
+from MetalGear.foxhound import main
 
 class TestFoxHound(unittest.TestCase):
     @staticmethod
     def test_fox():
-        # call foxhound
-        foxhound.main()
+        print(f'{__name__} => ')
+        main()
 
 
 if __name__ == '__main__':
