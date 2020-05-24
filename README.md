@@ -8,9 +8,15 @@ to install itself as a package ( a recursive dependency )
 # make sure pre reqs are installed
 pip install wheel setuptools --user
 
+# if you want to have access to the tests, clone the repo 
+# run the unittests from root directory ( where .git, tests/ directorys are )
+python -m tests.test_foxhound
+
+# else, if you just want to pip install the package ( like pypi )
 # install with this command
 pip install git+https://github.com/mattcoding4days/MetalGear#egg=MetalGear --user
 
-# run the unittests from root directory ( where .git, tests/ directorys are )
-python -m tests.test_foxhound
+# now it will be in your $HOME/.local/lib/python3.X/site-packages/MetalGear
+# now you can include it in any other module you want
+From MetalGear import foxhound
 ```
