@@ -1,7 +1,7 @@
 # MetalGear
 This is a test repository to make a python package that can be imported
 with pip via this this github repo, as well as be tested without needed MetalGear
-to install itself as a package ( a recursive dependency )
+to install itself as a package ( a recursive dependency) !
 
 ### Using python3.8, python=python3
 
